@@ -55,3 +55,11 @@ ul li a{
 ul li a:hover{
     color: darkgray;
 }
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+}
