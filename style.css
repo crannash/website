@@ -63,3 +63,19 @@ ul li a:hover{
     color: black;
     position: relative;
 }
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Georgia;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: Georgia;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 1.4px;
+}
