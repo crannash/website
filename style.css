@@ -39,7 +39,7 @@ a:active {
     background: transparent;
   }
 
-.menu a::selection {
+.menu *::selection {
     color: inherit;
     background: transparent;
   }
