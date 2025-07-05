@@ -34,7 +34,7 @@ a:active {
     color: black;
   }
 
-.logo::selection {
+.navbar:selection {
     color: inherit;
     background: transparent;
   }
