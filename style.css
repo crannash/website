@@ -34,10 +34,16 @@ a:active {
     color: black;
   }
 
-.navbar *::selection {
+.logo::selection {
     color: inherit;
     background: transparent;
   }
+
+.menu::selection {
+    color: inherit;
+    background: transparent;
+  }
+
 
 .navbar{
     width: 1200px;
