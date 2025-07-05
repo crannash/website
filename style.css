@@ -24,10 +24,8 @@
 .logo{
     color: #31007a;
     font-size: 60px;
-    font-family:'Helvetica Neue', sans-serif;
+    font-family:'Georgia', serif;
     font-weight: 1000;
-    padding-top: 3px;
-    padding-left: 30px;
     float: left;
 }
 
@@ -75,6 +73,7 @@ ul li a:hover{
     padding-bottom: 10%;
     font-family: 'Helvetica Neue', sans-serif;
     line-height: 30px;
+    justify-content: left;
 }
 
 .content h1{
@@ -83,4 +82,5 @@ ul li a:hover{
     padding-left: 5%;
     margin-top: 3%;
     letter-spacing: 1.4px;
+    justify-content: left;
 }
