@@ -34,7 +34,7 @@ a:active {
     color: black;
   }
 
-.navbar:selection {
+.navbar::selection {
     color: inherit;
     background: transparent;
   }
