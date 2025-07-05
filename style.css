@@ -73,7 +73,7 @@ ul li a:hover{
     padding-bottom: 10%;
     font-family: 'Helvetica Neue', sans-serif;
     line-height: 30px;
-    justify-content: left;
+    text-align: left;
 }
 
 .content h1{
@@ -82,5 +82,5 @@ ul li a:hover{
     padding-left: 5%;
     margin-top: 3%;
     letter-spacing: 1.4px;
-    justify-content: left;
+    text-align: left;
 }
