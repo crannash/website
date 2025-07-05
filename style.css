@@ -9,6 +9,7 @@
     margin: 0 auto;
     padding: 40px 20px;
     font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
     line-height: 1.6;
     font-size: 18px;
     color: black;
@@ -62,7 +63,7 @@ ul li a:hover{
 }
 
 .content{
-    width: 1200px;
+    width: 700px;
     height: auto;
     margin: auto;
     color: black;
@@ -70,8 +71,8 @@ ul li a:hover{
 }
 
 .content .par{
-    padding-left: 10%;
-    padding-bottom: 15%;
+    padding-left: 5%;
+    padding-bottom: 10%;
     font-family: 'Helvetica Neue', sans-serif;
     line-height: 30px;
 }
@@ -79,7 +80,7 @@ ul li a:hover{
 .content h1{
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 50px;
-    padding-left: 20px;
+    padding-left: 5%;
     margin-top: 9%;
     letter-spacing: 1.4px;
 }
