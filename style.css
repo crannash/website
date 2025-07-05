@@ -5,8 +5,13 @@
 }
 
 .main{
-    width: 100%;
-
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: "Helvetica Neue", sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    color: black;
 }
 
 .navbar{
@@ -18,7 +23,7 @@
 .logo{
     color: #31007a;
     font-size: 60px;
-    font-family:'Georgia', serif;
+    font-family:'Helvetica Neue', serif;
     font-weight: 1000;
     padding-top: 5px;
     padding-left: 30px;
@@ -48,7 +53,7 @@ ul li{
 ul li a{
     text-decoration: none;
     color: black;
-    font-family: Georgia;
+    font-family: 'Helvetica Neue';
     transition: 0.4s ease-in-out;
 }
 
@@ -67,12 +72,12 @@ ul li a:hover{
 .content .par{
     padding-left: 10%;
     padding-bottom: 15%;
-    font-family: Georgia;
+    font-family: 'Helvetica Neue';
     line-height: 30px;
 }
 
 .content h1{
-    font-family: Georgia;
+    font-family: 'Helvetica Neue';
     font-size: 50px;
     padding-left: 20px;
     margin-top: 9%;
