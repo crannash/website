@@ -23,7 +23,7 @@
 .logo{
     color: #31007a;
     font-size: 60px;
-    font-family:'Helvetica Neue', serif;
+    font-family:'Helvetica Neue', sans-serif;
     font-weight: 1000;
     padding-top: 3px;
     padding-left: 30px;
@@ -53,7 +53,7 @@ ul li{
 ul li a{
     text-decoration: none;
     color: black;
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica Neue', sans-serif;
     transition: 0.4s ease-in-out;
 }
 
@@ -72,12 +72,12 @@ ul li a:hover{
 .content .par{
     padding-left: 10%;
     padding-bottom: 15%;
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica Neue', sans-serif;
     line-height: 30px;
 }
 
 .content h1{
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 50px;
     padding-left: 20px;
     margin-top: 9%;
