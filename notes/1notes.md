@@ -15,7 +15,7 @@ This then implies that if we know the positions $\{ \mathbf{r}_1, ..., \mathbf{r
 In this sense, we can think of the set of positions and momenta of each particle in our system $\{ \mathbf{r}_1, ..., \mathbf{r}_N, \mathbf{p}_1, ..., \mathbf{p}_N \}$ as a point in a $6N$-dimensional **phase space**. Denote a point in phase space by 
 
 $$
-\mathbf{x}$ by $\mathbf{x} = (\mathbf{r}_1, ..., \mathbf{r}_N, \mathbf{p}_1, ..., \mathbf{p}_N)
+$\mathbf{x} = (\mathbf{r}_1, ..., \mathbf{r}_N, \mathbf{p}_1, ..., \mathbf{p}_N)
 $$.
 
 Moreover, we can define a phase space **trajectory** $\mathbf{x}(t)$ as a path in phase space parameterized by a single time variable $t$: 
@@ -26,4 +26,8 @@ $$.
 
 ### Why Ensembles?
 
-Now equipped with the notion of phase space, we can be a little bit more specific about what kind of objects we want to define to connect microscopic to macroscopic. In doing so, we will define the concept of an **ensemble**.
+Now equipped with the notion of phase space, we can be a little bit more specific about what kind of objects we want to define to connect microscopic to macroscopic. In doing so, we will define the concept of an **ensemble**. The notion of the ensemble will be very helpful in realizing the ultimate goal of statistical mechanics: determining macroscopic observables from microscopic dynamics.
+
+We have just discussed how the full dynamics of a system obeying classical physics can be described completely in terms of the positions and momenta of all particles in the system. In principle, then, we could in some way determine various macroscopic observables (temperature, heat capacity, etc.) of the system given this information.
+
+However, while the full phase-space description of our system is certainly sufficient to answer our driving question, it is most certainly not necessary. Consider a glass of water at room temperature - we know that, from the perspective of classical mechanics, this is an incredibly complicated system. Something on the order of $10^{23}$ water molecules violently bounce around, interact with each other, and vibrate along bond axes. 
