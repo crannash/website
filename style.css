@@ -101,6 +101,7 @@ ul li a:hover{
     margin: auto;
     color: black;
     position: relative;
+    text-align: left;
 }
 
 .content .par{
