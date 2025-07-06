@@ -4,6 +4,8 @@ The general scheme of this set of notes is to lay the microscopic framework for 
 
 A very reasonable response to this goal is to ask the question: "What does it mean to lay a microscopic framework?" In a very vague sense, what we want to do is develop a set of mathematical objects defined in terms of microscopic variables which provide a connection between a very specific microscopic configuration of particles and a macroscopic quantity (often referred to as an **observable**).
 
+### Phase Space
+
 Consider a system of $N$ particles. By Newton's Second Law, we can write down an equation for $\mathbf{F}_i (\mathbf{r}_i)$, the force on the $i$th particle as a function of its position:
 
 $$ \mathbf{F}_i (\mathbf{r}_i) = m \mathbf{a}_i (\mathbf{r}_i) = m \frac{d\mathbf{v}_i (\mathbf{r}_i)}{dt} = \frac{d\mathbf{p}_i (\mathbf{r}_i)}{dt} $$
@@ -21,3 +23,7 @@ Moreover, we can define a phase space **trajectory** $\mathbf{x}(t)$ as a path i
 $$
 \mathbf{x}(t) = (\mathbf{r}_1(t), ..., \mathbf{r}_N(t), \mathbf{p}_1(t), ..., \mathbf{p}_N(t))
 $$.
+
+### Why Ensembles?
+
+Now equipped with the notion of phase space, we can be a little bit more specific about what kind of objects we want to define to connect microscopic to macroscopic. In doing so, we will define the concept of an **ensemble**.
