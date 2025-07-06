@@ -5,7 +5,7 @@
 }
 
 .main{
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 40px 20px;
     font-family: "Helvetica Neue", sans-serif;
@@ -39,7 +39,7 @@ a:active {
   }
 
 .navbar{
-    max-width: 700px;
+    max-width: 1000px;
     height: 75px;
     display: flex;
     justify-content: space-around;
@@ -89,7 +89,7 @@ ul li a:hover{
 }
 
 .content{
-    width: 700px;
+    width: 1000px;
     height: auto;
     margin: auto;
     color: black;
@@ -123,7 +123,7 @@ ul li a:hover{
 }
 
 .notes-section {
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 40px 20px;
     text-align: left;
