@@ -46,7 +46,7 @@ a:active {
 
 
 .navbar{
-    width: 100%;
+    max-width: 700px;
     height: 75px;
     display: flex;
     justify-content: center;
