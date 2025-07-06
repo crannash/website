@@ -7,6 +7,10 @@
     body { font-family: 'Helvetica Neue'; background: #f0f0f0; padding: 20px; }
     h1 { color: #333; }
   </style>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
 </head>
 <body>
     <div class="main">
@@ -22,9 +26,17 @@
                 </ul>
             </div>
         </div>
-        <div class="content">
-            {% include notes/1notes.md %}
+        <div class="content" id="content-area">
+            
         </div>
     </div>
+    <script>
+        fetch('notes/1notes.html')
+          .then(res => res.text())
+          .then(html => {
+            document.getElementById('content-area').innerHTML = html;
+            if (window.MathJax) MathJax.typeset();
+          });
+      </script>
 </body>
 </html>
