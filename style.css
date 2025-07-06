@@ -43,9 +43,9 @@ a:active {
     height: 75px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     user-select: none;
 }
 
