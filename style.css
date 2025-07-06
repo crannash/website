@@ -46,8 +46,10 @@ a:active {
 
 
 .navbar{
-    width: 1200px;
+    width: 100%;
     height: 75px;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     text-align: center;
 }
