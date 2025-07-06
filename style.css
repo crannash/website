@@ -34,7 +34,7 @@ a:active {
     color: black;
   }
 
-.logo::selection {
+/* .logo::selection {
     color: inherit;
     background: transparent;
   }
@@ -42,7 +42,7 @@ a:active {
 .menu *::selection {
     color: inherit;
     background: transparent;
-  }
+  } */
 
 
 .navbar{
@@ -52,6 +52,7 @@ a:active {
     align-items: center;
     margin: auto;
     text-align: center;
+    user-select: none;
 }
 
 .icon .logo{
