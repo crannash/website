@@ -49,9 +49,9 @@ a:active {
     max-width: 700px;
     height: 75px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
     user-select: none;
 }
@@ -65,7 +65,7 @@ a:active {
 }
 
 .menu{
-    width: 400px;
+    /* width: 400px; */
     /* float: left; */
     height: 70px
 }
