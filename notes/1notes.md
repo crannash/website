@@ -15,14 +15,14 @@ This then implies that if we know the positions $\{ \mathbf{r}_1, ..., \mathbf{r
 In this sense, we can think of the set of positions and momenta of each particle in our system $\{ \mathbf{r}_1, ..., \mathbf{r}_N, \mathbf{p}_1, ..., \mathbf{p}_N \}$ as a point in a $6N$-dimensional **phase space**. Denote a point in phase space by 
 
 $$
-$\mathbf{x} = (\mathbf{r}_1, ..., \mathbf{r}_N, \mathbf{p}_1, ..., \mathbf{p}_N)
-$$.
+$\mathbf{x} = (\mathbf{r}_1, ..., \mathbf{r}_N, \mathbf{p}_1, ..., \mathbf{p}_N).
+$$
 
 Moreover, we can define a phase space **trajectory** $\mathbf{x}(t)$ as a path in phase space parameterized by a single time variable $t$: 
 
 $$
-\mathbf{x}(t) = (\mathbf{r}_1(t), ..., \mathbf{r}_N(t), \mathbf{p}_1(t), ..., \mathbf{p}_N(t))
-$$.
+\mathbf{x}(t) = (\mathbf{r}_1(t), ..., \mathbf{r}_N(t), \mathbf{p}_1(t), ..., \mathbf{p}_N(t)).
+$$
 
 ### Why ensembles?
 
