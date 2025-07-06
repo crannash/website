@@ -8,3 +8,4 @@ Consider a system of $N$ particles. By Newton's Second Law, we can write down an
 
 $$ \vec{F}_i (\vec{r}_i) = m \vec{a}_i (\vec{r}_i) = m \frac{d\vec{v}_i (\vec{r}_i)}{dt} = \frac{d\vec{p}_i (\vec{r}_i)}{dt} $$
 
+This then implies that if we know the positions $\{ \vec{r}_1, ..., \vec{r}_N \}$ and momenta $\{ \vec{p}_1, ..., \vec{p}_N \}$ of each of the $N$ particles in our system, we can fully describe the force on each particle (and therefore the dynamics of the system) with the set of $6N$ coordinates, $\{ \vec{r}_1, ..., \vec{r}_N, \vec{p}_1, ..., \vec{p}_N \}$ (Note that this is a set of $6N$ coordinates because each position and momentum has 3 scalar components).
