@@ -38,8 +38,12 @@ A keen observation to make is that many, many different microscopic states $\mat
 
 We define an **ensemble** as a set of systems which are described by the same set of microscopic interactions and all share a set of macroscopic properties (ex: number of particles $N$, volume $V$, and energy $E$). 
 
-Observables are calculated by averaging phase-space functions over an entire ensemble. So, if we have an observable $A$, corresponding phase-space function $a(\mathbf{x})$, and an ensemble with $\mathcal{Z}$ members, we compute $A$ by:
+Observables are calculated by averaging phase-space functions over an entire ensemble. So, if we have an observable $A$, corresponding phase-space function $a(\mathbf{x})$, and an ensemble with $\mathcal{Z}$ members, we define $A$ by:
 
-$$ A = \frac{1}{\mathcal{Z}} \sum_{n=1}^{\mathcal{Z}} a(\mathbf{x}_n) $$
+$$ A \equiv \langle a(\mathbf{x}) \rangle= \frac{1}{\mathcal{Z}} \sum_{n=1}^{\mathcal{Z}} a(\mathbf{x}_n) $$
 
 The kinds of ensembles we will mainly be concerned with are equilibrium ensembles. These are ensembles where if you let every "member system" of the ensemble evolve in time and then determine the value of an observable by averaging over the ensemble, the value is no different than if you averaged over the ensemble at $t=0$.
+
+### Liouville's theorem
+
+Consider an initial point in phase space $\mathbf{x}_0 = (\mathbf{r}_1(0), ..., \mathbf{r}_N(0), \mathbf{p}_1(0), ..., \mathbf{p}_N(0))$. A very cool result from classical mechanics is that, assuming $\mathbf{x}_0$

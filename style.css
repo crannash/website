@@ -42,7 +42,7 @@ a:active {
     max-width: 1000px;
     height: 75px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
     text-align: center;
