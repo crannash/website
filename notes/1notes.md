@@ -26,7 +26,7 @@ $$.
 
 ### Why ensembles?
 
-Now equipped with the notion of phase space, we can be a little bit more specific about what kind of objects we want to define to connect microscopic to macroscopic. In doing so, we will define the concept of an **ensemble**. The notion of the ensemble will be very helpful in realizing the ultimate goal of statistical mechanics: determining macroscopic observables from microscopic dynamics.
+Now equipped with the notion of phase space, we can be a little bit more specific about what kind of objects we want to define to connect microscopic to macroscopic. In doing so, we will define the concept of an ensemble. The notion of the ensemble will be very helpful in realizing the ultimate goal of statistical mechanics: determining macroscopic observables from microscopic dynamics.
 
 We have just discussed how the full dynamics of a system obeying classical physics can be described completely in terms of the positions and momenta of all particles in the system. In principle, then, we could in some way determine various macroscopic observables (temperature, heat capacity, etc.) of the system given this information.
 
