@@ -15,6 +15,10 @@
     color: black;
 }
 
+p {
+    margin-bottom: 1.2em;
+}
+
 a {
     color: #31007a;
     text-decoration: none;
@@ -136,18 +140,18 @@ ul li a:hover{
     text-align: left;
   }
   
-  .notes-section h2 {
+.notes-section h2 {
     text-align: center;
     margin-bottom: 20px;
   }
   
-  .notes-section ol {
+.notes-section ol {
     padding-left: 1.2em;
     margin-left: 0;
     list-style-position: inside;
   }
   
-  .notes-section li {
+.notes-section li {
     margin-bottom: 10px;
     line-height: 1.6;
   }
