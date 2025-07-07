@@ -42,7 +42,7 @@ a:active {
     max-width: 1000px;
     height: 75px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: left;
     margin: 0 auto;
     text-align: left;
